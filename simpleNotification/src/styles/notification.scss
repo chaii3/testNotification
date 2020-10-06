@@ -1,0 +1,57 @@
+.notification {
+    position: fixed;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 3px;
+    min-width: 300px;
+
+    &-content {
+        padding: 15px;
+
+        &__text {
+            font-size: 16px;
+            margin-top: 0;;
+        }
+
+        &__controls {
+            display: flex;
+        }
+
+        &-button {
+            width: 50%;
+            text-align: center;
+            color: #cccccc;
+            padding: 15px 8px;
+            transition: .3s;
+            cursor: pointer;
+
+            &_accept {
+                color: #4ba36b;
+                background: #ccf0d4;
+
+                &:hover {
+                    background: #6fb37d;
+                    color: white;
+                }
+            }
+
+            &_undo {
+                background: #f0f0f0;
+                color: black;
+
+                &:hover {
+                    color: #de1436;
+                    background: #f5dcd7;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 319px) {
+    .notification {
+        min-width: 0;
+    }
+}

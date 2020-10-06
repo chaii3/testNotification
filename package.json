@@ -1,0 +1,24 @@
+{
+  "name": "testnotification",
+  "version": "1.0.0",
+  "description": "Тестовое задание курьерской компании.",
+  "main": "index.js",
+  "scripts": {
+    "dev:simple": "webpack-dev-server --hot --open --inline --config ./webpack/webpack.config.simple.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikhaylonv.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.3.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
