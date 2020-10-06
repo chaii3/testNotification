@@ -4,7 +4,7 @@
   "description": "Тестовое задание курьерской компании.",
   "main": "index.js",
   "scripts": {
-    "dev:simple": "webpack-dev-server --hot --open --inline --config ./webpack/webpack.config.simple.js",
+    "dev:simple": "webpack-dev-server --hot --open --config webpack/webpack.config.simple.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mikhaylonv.dev@gmail.com",
